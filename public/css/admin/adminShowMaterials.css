@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #003366; /* Dark blue color */
+    color: #ffffff; /* White text */
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Button styling */
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-outline-info {
+    color: #17a2b8;
+    border-color: #17a2b8;
+    margin-right:10px;
+}
+
+.btn-outline-info:hover {
+    background-color: #17a2b8;
+    color: #ffffff;
+}
+
+.btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+.btn-outline-blue {
+    color: darkblue;
+    border-color: darkblue;
+    margin-top:10px;
+}
+
+.btn-outline-blue:hover {
+    background-color: darkblue;
+    color: #ffffff;
+}
+
+.button-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Icon styling */
+i.fas {
+    margin-right: 5px;
+}
+
+/* Button group styling */
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin:0 auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    width:400px;
+}
+
+.alert-success .close:focus {
+    outline: none;
+}

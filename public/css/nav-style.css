@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+nav{
+ position: fixed;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 75px;
+ background: white;
+ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+nav .navbar{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ height: 100%;
+ max-width: 90%;
+ background: white;
+ margin: auto;
+}
+nav .navbar .logo a{
+  color: #06BBCC;
+  font-size: 27px;
+  font-weight: 600;
+  text-decoration: none;
+}
+nav .navbar .menu{
+  display: flex;
+}
+.navbar .menu li{
+  list-style: none;
+  margin: 0 15px;
+}
+.navbar .menu li a{
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navbar .menu li a:hover,
+.navbar .menu li a.active {
+  color: #06BBCC;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-item .nav-link .active{
+  color: #06BBCC;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#user-email{
+  color: #06BBCC;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.logout-btn{
+  border: none;
+  color: red;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: white;
+}
